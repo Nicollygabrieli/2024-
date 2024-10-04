@@ -1,1 +1,53 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegando pelo Mundo Digital</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Navegando pelo Mundo Digital</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#recursos">Recursos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre o Projeto</h2>
+        <p>Este site explora diferentes aspectos do mundo digital e como podemos navegar por ele de forma eficaz.</p>
+    </section>
+
+    <section id="recursos">
+        <h2>Recursos Úteis</h2>
+        <ul>
+            <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a> - Aprenda sobre programação web.</li>
+            <li><a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a> - Documentação para desenvolvedores web.</li>
+            <li><a href="https://stackoverflow.com" target="_blank">Stack Overflow</a> - Perguntas e respostas sobre programação.</li>
+            <!-- Adicione mais recursos conforme necessário -->
+        </ul>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="contato-form">
+            <input type="text" placeholder="Seu Nome" required>
+            <input type="email" placeholder="Seu Email" required>
+            <textarea placeholder="Sua Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Navegando pelo Mundo Digital. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
